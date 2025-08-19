@@ -1,0 +1,16 @@
+{
+  "name": "js-mongo-app",
+  "version": "1.0.0",
+  "description": "Node.js + MongoDB project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.0"
+  }
+}
